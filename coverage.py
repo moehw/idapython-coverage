@@ -2,7 +2,6 @@ import sys
 import os
 import ctypes
 import ctypes.util
-import argparse
 
 try:
     import idc
@@ -13,8 +12,10 @@ except Exception as e:
 
 VERBOSE = False
 LOG     = True
+IS_PDB  = False
+IS_FILTER_EXPORT = False
 
-CURRENT_DIR  = os.path.dirname(__file__) + "/"
+CURRENT_DIR  = os.getcwd() + "/"
 FILE_NAMES   = "func_list.txt"
 FILE_OFFSETS = "offset_list.txt"
 FILE_MAP     = os.path.splitext(idaapi.get_root_filename())[0] + ".map"
@@ -279,7 +280,7 @@ def get_funcs_by_offsets(func_offsets):
         func = idaapi.get_func(func_offset).startEA
         if func:
             if VERBOSE:
-                print("Function: {} \t -> {}".format(demangle(func), hex(func_offset)))
+                print("Function: {} \t -> {}".format(demangle(get_func_name(func)), hex(func_offset)))
             func_addrs.add(func)
         else:
             print("[WARN] No function on offset {}".format(hex(func_offset)))
@@ -316,11 +317,13 @@ def main():
         else:
             print("-> " + func)
 
-    if VERBOSE:
-        print("\n>> Exports:")
-    exp_func_sets = get_export_tree()
-    if VERBOSE:
-        print("Export tree count: {}".format(len(exp_func_sets)))
+    exp_func_sets = set()
+    if IS_FILTER_EXPORT:
+        if VERBOSE:
+            print("\n>> Exports:")
+        exp_func_sets = get_export_tree()
+        if VERBOSE:
+            print("Export tree count: {}".format(len(exp_func_sets)))
     
     map_func_list = set()
     map_dict = dict()
@@ -372,11 +375,15 @@ def main():
         func_to_do = bin_functions.difference(func_sets)
         log_offsets_set(func_to_do, OUTPUT_FOLDER + "func_to_do.txt")
 
-
+if IS_PDB:
+    try:
+        symbol_path = os.environ["_NT_SYMBOL_PATH"]
+        os.environ["_NT_SYMBOL_PATH"] = symbol_path + ";" + CURRENT_DIR
+        idaapi.load_and_run_plugin("pdb", 3)
+    except Exception as e:
+        print("[WARN] Error while loading .pdb: {}".format(e))
+    
 try:
-    symbol_path = os.environ["_NT_SYMBOL_PATH"]
-    os.environ["_NT_SYMBOL_PATH"] = symbol_path + ";" + CURRENT_DIR
-    idaapi.load_and_run_plugin("pdb", 3)
     idc.auto_wait()
     main()
 except Exception as e:
