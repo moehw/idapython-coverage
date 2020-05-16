@@ -3,8 +3,9 @@
 
 ## Description
 
-Small script to calculate percentage of callable functions from given functions.
-Create file near script with name:
+Script to calculate percentage of callable functions from given functions.
+
+Create a file near the script with name:
 * ```func_list.txt``` with list of desired names to functions or 
 * ```offset_list.txt``` with list of desired offsets
 
