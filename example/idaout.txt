@@ -1,0 +1,12 @@
+*** Coverage ***
+Looking for function:
+-> 0x4029bb
+-> 0x403321
+-> 0x4052fa
+
+All functions count: 288
+
+Called functions: 177
+
+Called Functions to All Functions (percentage):
+> 61.4583333333%

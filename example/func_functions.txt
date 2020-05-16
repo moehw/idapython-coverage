@@ -1,0 +1,177 @@
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::data(void)	 -> 0x402400L
+std::__throw_bad_alloc(void)	 -> 0x402200L
+.fseek	 -> 0x402390L
+sub_406404	 -> 0x406404L
+sub_405E06	 -> 0x405e06L
+sub_406E09	 -> 0x406e09L
+sub_405A0A	 -> 0x405a0aL
+.sqlite3_exec	 -> 0x402410L
+sub_406E18	 -> 0x406e18L
+sub_405219	 -> 0x405219L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator=(char const*)	 -> 0x402420L
+.__cxa_free_exception	 -> 0x4022b0L
+sub_406A22	 -> 0x406a22L
+sub_407024	 -> 0x407024L
+sub_40602A	 -> 0x40602aL
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(char const*,std::allocator<char> const&)	 -> 0x402430L
+sub_405508	 -> 0x405508L
+sub_405A34	 -> 0x405a34L
+std::operator<<<char,std::char_traits<char>,std::allocator<char>>(std::basic_ostream<char,std::char_traits<char>> &,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x4022f0L
+sub_40520A	 -> 0x40520aL
+.memcmp	 -> 0x402240L
+sub_406060	 -> 0x406060L
+sub_405242	 -> 0x405242L
+sub_406A4E	 -> 0x406a4eL
+std::operator+<char,std::char_traits<char>,std::allocator<char>>(std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x405856L
+.__cxa_allocate_exception	 -> 0x402260L
+sub_405C5A	 -> 0x405c5aL
+std::operator+<char,std::char_traits<char>,std::allocator<char>>(char const*,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x405460L
+sub_406A10	 -> 0x406a10L
+sub_405C65	 -> 0x405c65L
+.__cxa_rethrow	 -> 0x402460L
+sub_40526C	 -> 0x40526cL
+std::logic_error::logic_error(std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x402470L
+sub_406A71	 -> 0x406a71L
+sub_4057A8	 -> 0x4057a8L
+sub_405C77	 -> 0x405c77L
+sub_405E78	 -> 0x405e78L
+sub_40687A	 -> 0x40687aL
+.fread	 -> 0x402480L
+std::basic_ifstream<char,std::char_traits<char>>::~basic_ifstream()	 -> 0x4021c0L
+sub_403682	 -> 0x403682L
+sub_405288	 -> 0x405288L
+sub_405C8A	 -> 0x405c8aL
+sub_40688C	 -> 0x40688cL
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::length(void)	 -> 0x402490L
+sub_405A96	 -> 0x405a96L
+sub_405F40	 -> 0x405f40L
+sub_405E9C	 -> 0x405e9cL
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::size(void)	 -> 0x4022a0L
+std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream(char const*,std::_Ios_Openmode)	 -> 0x402570L
+sub_405EAE	 -> 0x405eaeL
+sub_406130	 -> 0x406130L
+._Unwind_Resume	 -> 0x402540L
+std::allocator<char>::~allocator()	 -> 0x402380L
+sub_406AB4	 -> 0x406ab4L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x402230L
+sub_4058B8	 -> 0x4058b8L
+operator new(ulong)	 -> 0x402330L
+std::basic_ios<char,std::char_traits<char>>::operator void *(void)	 -> 0x4024c0L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::c_str(void)	 -> 0x402220L
+sub_405CC4	 -> 0x405cc4L
+sub_406AC6	 -> 0x406ac6L
+sub_406430	 -> 0x406430L
+sub_406DCC	 -> 0x406dccL
+sub_405D10	 -> 0x405d10L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::reserve(ulong)	 -> 0x4024d0L
+sub_4063A8	 -> 0x4063a8L
+sub_4058D4	 -> 0x4058d4L
+sub_405AD6	 -> 0x405ad6L
+std::allocator<char>::allocator(void)	 -> 0x402550L
+sub_406CDE	 -> 0x406cdeL
+std::operator<<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char const*)	 -> 0x402320L
+std::basic_ifstream<char,std::char_traits<char>>::is_open(void)	 -> 0x4024e0L
+.system	 -> 0x4022d0L
+sub_406EE4	 -> 0x406ee4L
+sub_403EE5	 -> 0x403ee5L
+sub_4048E7	 -> 0x4048e7L
+sub_4034ED	 -> 0x4034edL
+.ftell	 -> 0x402110L
+sub_4058F0	 -> 0x4058f0L
+sub_406AF2	 -> 0x406af2L
+.__cxa_begin_catch	 -> 0x402210L
+sub_406E40	 -> 0x406e40L
+sub_4052FA	 -> 0x4052faL
+sub_404CFC	 -> 0x404cfcL
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator+=(char const*)	 -> 0x402310L
+operator delete(void *)	 -> 0x402300L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::~basic_string()	 -> 0x402280L
+sub_405F02	 -> 0x405f02L
+sub_4046C9	 -> 0x4046c9L
+sub_406108	 -> 0x406108L
+sub_406D0A	 -> 0x406d0aL
+sub_406F0E	 -> 0x406f0eL
+.__cxa_throw	 -> 0x402510L
+sub_402F12	 -> 0x402f12L
+sub_405F14	 -> 0x405f14L
+sub_406116	 -> 0x406116L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x402120L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator=(std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x402130L
+sub_406B22	 -> 0x406b22L
+sub_405524	 -> 0x405524L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::substr(ulong,ulong)	 -> 0x402340L
+sub_402787	 -> 0x402787L
+sub_405F2E	 -> 0x405f2eL
+.sqlite3_open	 -> 0x402530L
+sub_406D36	 -> 0x406d36L
+sub_405D3A	 -> 0x405d3aL
+sub_405E8A	 -> 0x405e8aL
+sub_405540	 -> 0x405540L
+sub_406F70	 -> 0x406f70L
+sub_405D44	 -> 0x405d44L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator+=(std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x4023f0L
+sub_406A8C	 -> 0x406a8cL
+sub_40634C	 -> 0x40634cL
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::append(char const*,ulong)	 -> 0x402150L
+sub_40698E	 -> 0x40698eL
+sub_405956	 -> 0x405956L
+sub_406358	 -> 0x406358L
+sub_405F5A	 -> 0x405f5aL
+sub_406D5E	 -> 0x406d5eL
+std::ostream::operator<<(std::ostream & (*)(std::ostream &))	 -> 0x402360L
+std::basic_ifstream<char,std::char_traits<char>>::close(void)	 -> 0x402190L
+sub_405D62	 -> 0x405d62L
+sub_405968	 -> 0x405968L
+sub_40536C	 -> 0x40536cL
+std::_Rb_tree_insert_and_rebalance(bool,std::_Rb_tree_node_base *,std::_Rb_tree_node_base *,std::_Rb_tree_node_base&)	 -> 0x402170L
+sub_405F76	 -> 0x405f76L
+sub_406D7C	 -> 0x406d7cL
+sub_403321	 -> 0x403321L
+sub_404B95	 -> 0x404b95L
+std::getline<char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> &)	 -> 0x402180L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(void)	 -> 0x402440L
+sub_405782	 -> 0x405782L
+sub_405EC0	 -> 0x405ec0L
+sub_406D87	 -> 0x406d87L
+sub_405D8A	 -> 0x405d8aL
+sub_40638C	 -> 0x40638cL
+sub_406A42	 -> 0x406a42L
+sub_40598E	 -> 0x40598eL
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::append(char const*)	 -> 0x402590L
+sub_405191	 -> 0x405191L
+sub_4060EE	 -> 0x4060eeL
+sub_40559A	 -> 0x40559aL
+sub_403F9A	 -> 0x403f9aL
+sub_40699E	 -> 0x40699eL
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::erase(ulong,ulong)	 -> 0x4021a0L
+.__cxa_end_catch	 -> 0x4024f0L
+sub_406DA2	 -> 0x406da2L
+sub_4059A8	 -> 0x4059a8L
+.fopen	 -> 0x4023b0L
+sub_405FB8	 -> 0x405fb8L
+sub_402FBA	 -> 0x402fbaL
+sub_4029BB	 -> 0x4029bbL
+sub_4061BC	 -> 0x4061bcL
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::find(char const*,ulong)	 -> 0x4025c0L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::append(std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x4025a0L
+sub_4063C7	 -> 0x4063c7L
+sub_4059CA	 -> 0x4059caL
+sub_4051CC	 -> 0x4051ccL
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(char const*)	 -> 0x4021d0L
+sub_405DF8	 -> 0x405df8L
+sub_4057D2	 -> 0x4057d2L
+sub_406FD8	 -> 0x406fd8L
+sub_4053FE	 -> 0x4053feL
+std::operator>><char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> &)	 -> 0x4023e0L
+std::_Rb_tree_decrement(std::_Rb_tree_node_base *)	 -> 0x402350L
+sub_4061E2	 -> 0x4061e2L
+sub_4055E6	 -> 0x4055e6L
+sub_405DE9	 -> 0x405de9L
+sub_4059EC	 -> 0x4059ecL
+.write	 -> 0x4021f0L
+sub_405DA8	 -> 0x405da8L
+sub_405BF8	 -> 0x405bf8L
+sub_4063F6	 -> 0x4063f6L
+sub_4051F8	 -> 0x4051f8L
+std::_Rb_tree_increment(std::_Rb_tree_node_base *)	 -> 0x402290L
+sub_4069FE	 -> 0x4069feL

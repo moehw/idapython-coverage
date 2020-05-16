@@ -1,0 +1,111 @@
+_Unwind_Resume	 -> 0x60a600L
+std::operator<<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char const*)	 -> 0x60a500L
+std::allocator<char>::allocator(void)	 -> 0x60a608L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator=(std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x60a410L
+__gxx_personality_v0	 -> 0x60a658L
+std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream(char const*,std::_Ios_Openmode)	 -> 0x60a618L
+sub_404E1B	 -> 0x404e1bL
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::append(char const*,ulong)	 -> 0x60a420L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::~basic_string()	 -> 0x60a4b0L
+main	 -> 0x404e24L
+bind	 -> 0x60a428L
+std::_Rb_tree_insert_and_rebalance(bool,std::_Rb_tree_node_base *,std::_Rb_tree_node_base *,std::_Rb_tree_node_base&)	 -> 0x60a430L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x60a408L
+close	 -> 0x60a638L
+init	 -> 0x407040L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator+=(std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x60a560L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::erase(ulong,ulong)	 -> 0x60a448L
+write	 -> 0x60a470L
+std::endl<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &)	 -> 0x60a650L
+std::basic_ifstream<char,std::char_traits<char>>::~basic_ifstream()	 -> 0x60a458L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(char const*)	 -> 0x60a460L
+setsockopt	 -> 0x60a610L
+accept	 -> 0x60a468L
+.memset	 -> 0x402270L
+.setsockopt	 -> 0x402560L
+std::__throw_bad_alloc(void)	 -> 0x60a478L
+std::ios_base::Init::~Init()	 -> 0x60a660L
+__cxa_begin_catch	 -> 0x60a480L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::size(void)	 -> 0x60a4c0L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::c_str(void)	 -> 0x60a488L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x60a490L
+htons	 -> 0x60a418L
+memcmp	 -> 0x60a498L
+__cxa_allocate_exception	 -> 0x60a4a0L
+sqlite3_exec	 -> 0x60a570L
+memset	 -> 0x60a4a8L
+fini	 -> 0x4070b0L
+.read	 -> 0x402450L
+.term_proc	 -> 0x4070b4L
+std::_Rb_tree_increment(std::_Rb_tree_node_base *)	 -> 0x60a4b8L
+.htonl	 -> 0x4022c0L
+std::ostream::operator<<(std::ostream & (*)(std::ostream &))	 -> 0x60a520L
+__cxa_free_exception	 -> 0x60a4c8L
+htonl	 -> 0x60a4d0L
+system	 -> 0x60a4d8L
+.__cxa_atexit	 -> 0x4022e0L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::reserve(ulong)	 -> 0x60a5d0L
+sub_4026E6	 -> 0x4026e6L
+std::operator<<<char,std::char_traits<char>,std::allocator<char>>(std::basic_ostream<char,std::char_traits<char>> &,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x60a4e8L
+operator delete(void *)	 -> 0x60a4f0L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::append(char const*)	 -> 0x60a628L
+sub_402620	 -> 0x402620L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator+=(char const*)	 -> 0x60a4f8L
+__libc_start_main	 -> 0x60a620L
+sub_402100	 -> 0x402100L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(char const*,std::allocator<char> const&)	 -> 0x60a580L
+operator new(ulong)	 -> 0x60a508L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::substr(ulong,ulong)	 -> 0x60a510L
+.init_proc	 -> 0x4020d8L
+std::_Rb_tree_decrement(std::_Rb_tree_node_base *)	 -> 0x60a518L
+std::ostream::operator<<(int)	 -> 0x402520L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::append(std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x60a630L
+ftell	 -> 0x60a400L
+inet_ntop	 -> 0x60a528L
+std::allocator<char>::~allocator()	 -> 0x60a530L
+fseek	 -> 0x60a538L
+sub_40513E	 -> 0x40513eL
+.htons	 -> 0x402140L
+__cxa_atexit	 -> 0x60a4e0L
+fopen	 -> 0x60a548L
+exit	 -> 0x60a550L
+std::getline<char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> &)	 -> 0x60a438L
+.accept	 -> 0x4021e0L
+std::operator>><char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> &)	 -> 0x60a558L
+.bind	 -> 0x402160L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::data(void)	 -> 0x60a568L
+.inet_ntop	 -> 0x402370L
+__cxa_end_catch	 -> 0x60a5e0L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator=(char const*)	 -> 0x60a578L
+sub_40517C	 -> 0x40517cL
+.__libc_start_main	 -> 0x402580L
+std::basic_ifstream<char,std::char_traits<char>>::close(void)	 -> 0x60a440L
+std::logic_error::~logic_error()	 -> 0x4023d0L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(void)	 -> 0x60a588L
+read	 -> 0x60a590L
+__cxa_rethrow	 -> 0x60a598L
+listen	 -> 0x60a540L
+std::logic_error::logic_error(std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>> const&)	 -> 0x60a5a0L
+start	 -> 0x4025f0L
+.exit	 -> 0x4023c0L
+fread	 -> 0x60a5a8L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::length(void)	 -> 0x60a5b0L
+std::logic_error::~logic_error()	 -> 0x60a648L
+.socket	 -> 0x4021b0L
+std::ios_base::Init::Init(void)	 -> 0x60a5b8L
+sub_4026C0	 -> 0x4026c0L
+atoi	 -> 0x60a5c0L
+.listen	 -> 0x4023a0L
+std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::find(char const*,ulong)	 -> 0x60a640L
+std::basic_ios<char,std::char_traits<char>>::operator void *(void)	 -> 0x60a5c8L
+.atoi	 -> 0x4024b0L
+std::ios_base::Init::~Init()	 -> 0x4025d0L
+.close	 -> 0x4025b0L
+std::basic_ifstream<char,std::char_traits<char>>::is_open(void)	 -> 0x60a5d8L
+__gmon_start__	 -> 0x4025e0L
+socket	 -> 0x60a450L
+__cxa_throw	 -> 0x60a5e8L
+std::ios_base::Init::Init(void)	 -> 0x4024a0L
+std::ostream::operator<<(int)	 -> 0x60a5f0L
+sqlite3_open	 -> 0x60a5f8L
+sub_4026A0	 -> 0x4026a0L
